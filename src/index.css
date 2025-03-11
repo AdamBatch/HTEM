@@ -1,0 +1,114 @@
+/* Color Pallete
+    dark gray: rgb(53,53,53);
+    earthy green: rgb(60,110,113)
+    white: rgb(255,255,255) 
+    light gray: rgb(217,217,217) 
+    murky blue: rgb(40,75,99)  
+    
+    */
+
+html{
+  height: 100vh;
+  background: repeating-linear-gradient(45deg, rgb(40, 75, 99), rgb(53,53,53) 1px );
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24pt;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  padding: 0 10px 0 10px;
+  justify-content: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+}
+
+p {
+  padding: 0 10px 0 10px;
+  justify-content: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background-size: 100vw 100vh;
+  padding: 30px;
+  height: 100vh;
+}
+
+.wrapper {
+  display:grid;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  gap: 10px 10px;
+  grid-template-rows: 1 fr 2 fr 2 fr;
+  justify-content: center;
+  background-color: rgb(180,180,180);
+  border: 10px solid rgb(180,180,180);
+  border-radius: 10px;
+  padding: 10px
+}
+
+.description{
+  grid-column: 1 / span 2;
+  grid-row: 1 / span ;
+  z-index: 1;
+  min-height: 100px;
+  background-color: white;
+  border: 5px solid rgb(40,75,99);
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.positionGraph {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  z-index: 1;
+  min-height: 300px;
+  background-color: white;
+  border: 5px solid rgb(40,75,99);
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.concentrationGraph {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  z-index: 1;
+  min-height: 300px;
+  background-color: white;
+  border: 5px solid rgb(40,75,99);
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.opticalGraph {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  z-index: 1;
+  min-height: 300px;
+  background-color: white;
+  border: 5px solid rgb(40,75,99);
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.xrdGraph {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  z-index: 1;
+  min-height: 300px;
+  background-color: white;
+  border: 5px solid rgb(40,75,99);
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
